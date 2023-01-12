@@ -4,162 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Practice</title>
+    <title>FreeCode Camp</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Google FOnts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css" integrity="sha512-6mc0R607di/biCutMUtU9K7NtNewiGQzrvWX4bWTeqmljZdJrwYvKJtnhgR+Ryvj+NRJ8+NnnCM/biGqMe/iRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section class="header">
-      <nav>
-          <a href=""><img src="images/logo.png" alt=""></a>
-          <div class="nav-links" id="navLinks">
-              <i class="fa fa-times" onclick="hidemenu()"></i>
-              <ul>
-                  <li><a href="">HOME</a></li>
-                  <li><a href="">ABOUT</a></li>
-                  <li><a href="">COURSE</a></li>
-                  <li><a href="">VISION</a></li>
-                  <li><a href="">BLOG</a></li>
-                  <li><a href="">CONTACT</a></li>
-              </ul>
-          </div>
-          <i class="fa fa-bars" onclick="showmenu()"></i>
-      </nav>
-      <div class="text-box">
-          <h1>World's Biggest University</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Maiores iusto dolorem expedita blanditiis porro deserunt, tempore libero quod ut dignissimos?</p>
-          <a href="" class="hero-btn">Visit Us to Know More</a>
-      </div>
-    </section>
-    <!-- Course -->
-    <section class="course">
-       <h1>Courses We Offer</h1>
-       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, earum?</p>
-       <div class="row">
-           <div class="course-col">
-               <h3>Intermediate</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere suscipit dicta molestias maxime, quisquam eum architecto quas culpa, eligendi reiciendis, quia quidem nesciunt? Tenetur nostrum, atque quam harum eum animi.</p>
-           </div>
-           <div class="course-col">
-            <h3>Degree</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere suscipit dicta molestias maxime, quisquam eum architecto quas culpa, eligendi reiciendis, quia quidem nesciunt? Tenetur nostrum, atque quam harum eum animi.</p>
+    <!-- NavBar  -->
+  <nav>
+     <div class="nav-div d-flex">
+        <input type="search" name="" class="search_bar" placeholder="Search 90,000 tutorials">
+        <div class="d-flex nav-head">
+            <h1 class="nav-text">FreeCodeCamp (&nbsp</h1>
+            <!-- <h1 class="nav-text">( &nbsp</h1> -->
+            <i class="fa-solid fa-2x fa-fire-flame-simple"></i>
+            <h1 class="nav-text">&nbsp)</h1>
         </div>
-        <div class="course-col">
-            <h3>Post Graduation</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere suscipit dicta molestias maxime, quisquam eum architecto quas culpa, eligendi reiciendis, quia quidem nesciunt? Tenetur nostrum, atque quam harum eum animi.</p>
+        <div class="nav-btns">
+            <button class="menu_btn">Menu</button>
+            <button class="signin_btn">Sign In</button>
         </div>
-       </div>
-    </section>
-    <!-- Campus -->
-    <section class="campus">
-      <h1>Our Global Campus</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate possimus adipisci inventore consequatur exercitationem veritatis repellat iusto magnam velit asperiores.</p>
-      <div class="row">
-          <div class="campus-col">
-              <img src="images/london.png" alt="">
-              <div class="layer">
-                  <h3>LONDON</h3>
-              </div>
-          </div>
-          <div class="campus-col">
-            <img src="images/newyork.png" alt="">
-            <div class="layer">
-                <h3>NewYork</h3>
+     </div>
+  </nav>
+  <!-- NavBar ENds -->
+
+  <!-- Hero Section -->
+  <div class="container">
+    <div class="hero">
+        <h1>
+            Learn to code - for free.
+        </h1>
+        <p class="big-head">
+            Build projects.
+        </p>
+        <p class="big-head">
+           Earn Certifications.
+        </p>
+        <p class="hero-p">
+            Since 2014, more than 40,000 freeCodeCamp.org graduates have gotten jobs at tech companies including:
+        </p>
+        <div class="hero-icons">
+            <i class="fa-brands fa-2x fa-apple"></i>
+            <p class="google">Google</p>
+            <div class="d-flex">
+                <i class="fa-brands fa-2x fa-microsoft"></i>
+                <p class="microsoft">Microsoft</p>
             </div>
+            <div class="d-flex">
+                <i class="fa-brands fa-2x fa-spotify"></i>
+                <p class="microsoft">Spotify</p>
+            </div>
+            <i class="fa-brands fa-2x fa-amazon"></i>
         </div>
-        <div class="campus-col">
-            <img src="images/washington.png" alt="">
-            <div class="layer">
-                <h3>Washington</h3>
-            </div>
+        <div class="get-start-div">
+          <button class="get-start-btn">Get Started  (it's free)</button>
         </div>
-      </div>
-    </section>
-    <!-- Facility -->
-    <section class="facility">
-        <h1>Our Facility</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sed pariatur necessitatibus tenetur eius doloremque. Vero amet tempore labore repellendus quidem vel, tempora veniam velit id officia, quasi ut reprehenderit!</p>
-        <div class="row">
-            <div class="facility-col">
-                <img src="images/library.png" alt="">
-                <h3>World Class Library</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quae tempora tenetur delectus illum? Voluptatibus officia sequi fuga laborum. Velit.</p>
-            </div>
-            <div class="facility-col">
-                <img src="images/basketball.png" alt="">
-                <h3>Best BasketBall Team</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quae tempora tenetur delectus illum? Voluptatibus officia sequi fuga laborum. Velit.</p>
-            </div>
-            <div class="facility-col">
-                <img src="images/cafeteria.png" alt="">
-                <h3>Tasty and Healthy Food</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quae tempora tenetur delectus illum? Voluptatibus officia sequi fuga laborum. Velit.</p>
-            </div>
+        <div class="nav-img">
+            <img src="https://www.freecodecamp.org/static/wide-image-3cb329e8b3cae865be76746fbd069cd2.png" alt="">
         </div>
-    </section>
-    <section class="testimonials">
-        <h1>What Our Students Say</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi nisi fugit odit ipsam. Nulla eligendi rerum reprehenderit! Aspernatur, dignissimos?</p>
-        <div class="row">
-            <div class="testimonial-col">
-                <img src="images/user1.jpg" alt="">
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore doloremque eligendi voluptates ratione veniam. Id obcaecati aut maxime eum numquam, iste quisquam. Asperiores, autem.</p>
-                    <h3>Christine Berkley</h3>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                </div>
-            </div>
-            <div class="testimonial-col">
-                <img src="images/user1.jpg" alt="">
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore doloremque eligendi voluptates ratione veniam. Id obcaecati aut maxime eum numquam, iste quisquam. Asperiores, autem.</p>
-                    <h3>Christine Berkley</h3>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Call To action -->
-    <section class="cta">
-        <h1>Enroll For Our Various Online Courses <br> Anywhere From The World</h1>
-        <a href="" class="hero-btn">Contact Us</a>
-    </section>
-<!-- Footer -->
-<section class="footer">
-    <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa amet dignissimos <br>rem distinctio in cupiditate doloremque ratione saepe nemo aspernatur. Veniam .</p>
-    <div class="icons">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter"></i>
     </div>
-    <hr>
-    <p>Made by <span>Seedorf</span></p>
-</section>
+  </div>
+  <!-- Hero Section ENds -->
 
 
 
-
-
-<script>
-    var navLinks = document.getElementById("navLinks");
-    function showmenu() {
-        navLinks.style.right = "0";
-    }
-    function hidemenu() {
-        navLinks.style.right = "-500px";
-    }
-</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>

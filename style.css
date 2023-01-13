@@ -152,7 +152,41 @@ nav{
     font-size: 40px;
 }
 .as-seen-main-box{
-    padding-top: 4%;
+    padding-top: 3%;
     text-align: center;
 }
 /* As Seen Section Ends */
+/* Alumni Section Starts */
+.alumni-card{
+    display: flex;
+    margin-top: 68px;
+}
+.al-desc{
+    background-color: #0A0A23;
+    width: 100%;
+    padding-top: 40px ;
+}
+.al-intro{
+    text-align: center;
+}
+.al-say{
+  padding-left: 10% ;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+.al-intro p{
+    font-size: 22px;
+}
+.alumni-card p{
+
+    word-spacing: 1px;
+    line-height: 35px;
+}
+.al-say p{
+    font-size: 20px;
+}
+.nd-card{
+ position: relative;
+ right: 30%;
+}
+/* Alumni Section Ends */

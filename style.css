@@ -9,6 +9,10 @@ body{
     color: white;
 }
 /* NavBar */
+nav{
+    position: absolute;
+    top: 0;
+}
 .nav-text{
     font-family: 'Lato',sans-serif;
     font-weight: 300;
@@ -117,7 +121,6 @@ nav{
   width: 85%;
   border: solid 6px #FFAD32;
   margin-left: 10px;
-  transition: 1s;
 }
 .get-start-div{
     padding-left: 15%;
@@ -125,12 +128,31 @@ nav{
     padding-bottom: 50px;
 }
 .get-start-btn:hover{
-    border: none;
     transition: 1s;
     cursor: pointer;
-    background-color: #f6c466fc;
+    background-color: #f2b13adc;
 }
-.nav-img{
-   /* // padding: 40px ; */
+.hero-last{
+    font-family: 'Lato',sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 12%;
+    padding-top: 15px;
+    padding-bottom: 10%;
 }
 /* Hero Section Ends */
+/* As Seen In Section */
+.as-seen{
+    background-color: #3A3A4F;
+    padding-bottom: 4%;
+}
+.as-seen h2{
+    font-size: 40px;
+}
+.as-seen-main-box{
+    padding-top: 4%;
+    text-align: center;
+}
+/* As Seen Section Ends */

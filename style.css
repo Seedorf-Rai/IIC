@@ -160,7 +160,7 @@ nav{
 /* Alumni Section Starts */
 .alumni-card{
     display: flex;
-    margin-top: 68px;
+    margin-top: 70px;
 }
 .al-desc{
     background-color: #0A0A23;
@@ -188,8 +188,9 @@ nav{
 }
 .nd-card{
  position: relative;
- right: 30%;
+ right: 16%;
 }
+
 /* Alumni Section Ends */
 
 /* Certification Section */
@@ -218,7 +219,7 @@ nav{
 }
 .cert-box h3{
     margin-left: 30px;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 400;
 }
 .cert-box:hover{
@@ -232,3 +233,59 @@ nav{
     margin-left: 60px;
 }
 /* Certification Section Ends */
+
+/* Footer Section */
+.footer{
+    width: 100%;
+    background-color: #2B2B40;
+}
+.footer-box{
+    display: flex;
+}
+.footer-description{
+    width: 40%;
+    /* background-color: red; */
+}
+.footer p{
+    font-size: 17px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.link-box h3{
+    text-align: center;
+    font-weight: 400;
+}
+.link-box{
+    width: 54%;
+    /* background-color: red; */
+    padding-left: 5%;
+}
+.link-box-cont{
+  padding-top: 4%;
+}
+.first-link{
+    display: flex;
+    flex-direction: column;
+     margin-right: 30px;
+}
+.first-link a{
+    margin-bottom: 15px;
+}
+.footer-line{
+    margin-top: 30px;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(130, 128, 128);
+    backdrop-filter: blur(10px);
+}
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 25px;
+}
+.footer-end p{
+    font-size: 17px;
+    font-weight: 350;
+}
+/* Footer Section ENds */
